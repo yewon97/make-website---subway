@@ -1,0 +1,43 @@
+smilesub 메뉴명
+
+쿠키류
+- 파인애플 쿠키
+Pineapple Cookies
+200 kcal
+- 더블 초코칩
+Double Chocolate Chip
+210 kcal
+- 초코칩
+Chocolate Chip
+200 kcal
+- 오트밀 레이즌
+Oatmeal Raisin
+200 kcal
+- 라즈베리 치즈케익
+Raspberry Cheese Cake
+200 kcal
+- 화이트 초코 마카다미아
+White Choco Macadamia
+220 kcal
+
+포테이토
+- 웨지 포테이토
+Ovenbaked Wedge Potatoes
+143 kcal
+- Cheesy 웨지 포테이토
+Cheesy Ovenbaked Wedge Potatoes
+187 kcal
+- Bacon Cheesy 웨지 포테이토
+Bacon Cheesy Ovenbaked Wedge Potatoes
+238 kcal
+
+수프
+- 머쉬룸 수프
+Mushroom Soup
+150 kcal
+- 브로콜리 체다 수프
+Broccoli Cheddar Soup
+170 kcal
+- 베이크 포테이토 수프
+Baked Potatoe Soup
+210 kcal

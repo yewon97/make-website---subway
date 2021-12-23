@@ -1,0 +1,57 @@
+morning 메뉴명
+
+샌드위치
+- 스테이크, 에그 & 치즈
+Steak, Egg & Cheese
+440 kcal
+- 햄, 에그 & 치즈
+Ham, Egg & Cheese
+400 kcal
+- 웨스턴, 에그 & 치즈
+Western, Egg & Cheese
+370 kcal
+- 베이컨, 에그 & 치즈
+Bacon, Egg & Cheese
+450 kcal
+
+랩
+- 스테이크, 에그 & 치즈 랩
+Steak, Egg & Cheese Wrap
+330 kcal
+- 햄, 에그 & 치즈 랩
+Ham, Egg & Cheese Wrap
+288 kcal
+- 웨스턴, 에그 & 치즈 랩
+Western, Egg & Cheese Wrap
+298 kcal
+- 베이컨, 에그 & 치즈 랩
+Bacon, Egg & Cheese Wrap
+321 kcal
+
+그릴드 랩
+- 스테이크, 에그 & 치즈 그릴드 랩
+Steak, Egg & Cheese Grilled Wrap
+309 kcal
+- 햄, 에그 & 치즈 그릴드 랩
+Ham, Egg & Cheese Grilled Wrap
+280 kcal
+- 웨스턴, 에그 & 치즈 그릴드 랩
+Western, Egg & Cheese Grilled Wrap
+276 kcal
+- 베이컨, 에그 & 치즈 그릴드 랩
+Bacon, Egg & Cheese Grilled Wrap
+300 kcal
+
+파니니
+- 스테이크, 에그 & 치즈 파니니
+Steak, Egg & Cheese Panini
+372 kcal
+- 햄, 에그 & 치즈 파니니
+Ham, Egg & Cheese Panini
+330 kcal
+- 웨스턴, 에그 & 치즈 파니니
+Western, Egg & Cheese Panini
+340 kcal
+- 베이컨, 에그 & 치즈 파니니
+Bacon, Egg & Cheese Panini
+363 kcal

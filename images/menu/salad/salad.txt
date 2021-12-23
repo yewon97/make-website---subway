@@ -1,0 +1,70 @@
+salad 메뉴명
+
+클래식
+- 이탈리안 비엠티
+Italian B.M.T
+230 kcal
+- 비엘티
+B.L.T
+220 kcal
+- 미트볼
+Meatball
+310 kcal
+- 햄
+Ham
+110 kcal
+- 참치
+Tuna
+310 kcal
+- 에그마요
+Egg Mayo
+310 kcal
+
+프레쉬&라이트
+- 로티세리 치킨
+Rotisserie Chicken
+170 kcal
+- 로스트 치킨
+Roasted Chicken
+150 kcal
+- 써브웨이 클럽
+Subway Club
+138 kcal
+- 터키
+Turkey
+110 kcal
+- 베지
+Veggie Delite
+60 kcal
+
+프리미엄
+- K-바비큐
+K-BBQ
+210 kcal
+- 쉬림프
+Shrimp
+67 kcal
+- 풀드 포크 바비큐
+Pulled Pork Barbecue
+165 kcal
+- 스테이크 & 치즈
+Steak & Cheese
+210 kcal
+- 터키 베이컨 아보카도
+Turkey Bacon Avocado
+238 kcal
+- 스파이시 이탈리안
+Spicy Italian
+310 kcal
+- 치킨 데리야끼
+Chicken Teriyaki
+230 kcal
+
+신제품
+- 페퍼 치킨 슈니첼
+Pepper Chicken Schnitzel
+310 kcal
+
+
+
+

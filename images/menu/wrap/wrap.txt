@@ -1,0 +1,39 @@
+wrap 메뉴명
+
+시그니처 랩
+- 스테이크 & 치즈 아보카도 랩
+Steak & Cheese Avocado Wrap
+451 kcal
+- 쉬림프 에그마요 랩
+Shrimp Egg Mayo Wrap
+459 kcal
+
+미니 랩
+- 이탈리안 미니 랩
+Italian Mini Wrap
+405 kcal
+- 치킨 베이컨 미니 랩
+Chicken Bacon Mini Wrap
+376 kcal
+
+그릴드 랩
+- 쉬림프 에그 그릴드 랩
+Shrimp Egg Grilled Wrap
+427 kcal
+- 스테이크 & 치즈 아보카도 그릴드 랩
+Steak & Cheese Avocado Grilled Wrap
+451 kcal
+- 치킨 베이컨 미니 그릴드 랩
+Chicken Bacon Mini Grilled Wrap
+376 kcal
+- 이탈리안 미니 그릴드 랩
+Italian Mini Grilled Wrap
+405 kcal
+
+파니니
+- 스테이크 & 치즈 파니니
+Steak & Cheese Panini
+453 kcal
+- 로티세리 바비큐 치킨 파니니
+Rotisserie Barbecue Chicken Panini
+450 kcal

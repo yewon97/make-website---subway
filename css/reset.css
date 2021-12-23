@@ -1,0 +1,25 @@
+/* css reset */
+/* prettier-ignore */
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd{margin:0;padding:0}
+address {
+  display: inline-block;
+  font-style: normal;
+}
+body {
+  font-family: 'Noto Sans KR', 'Noto Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+li {
+  list-style: none;
+}
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}

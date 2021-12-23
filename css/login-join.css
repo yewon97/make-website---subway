@@ -1,0 +1,232 @@
+@import 'reset.css';
+@import 'header-footer.css';
+
+.hide {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+.img_size {
+  width: 262px;
+  height: 184px;
+}
+
+/* main starts */
+.container {
+  height: 860px;
+  background-color: #f6f6f6;
+  text-align: center;
+  position: relative;
+  min-width: 1200px;
+}
+.box {
+  width: 550px;
+  height: 650px;
+  background-color: #fff;
+  border-radius: 30px 0 30px 0;
+  position: absolute;
+  display: none;
+  top: 106px;
+  left: calc(50% - 275px);
+}
+.show {
+  display: block;
+}
+.login-join__tab {
+  height: 80px;
+  border-bottom: 2px solid #009223;
+}
+.login-join__tab li {
+  float: left;
+  width: 275px;
+  font-size: 30px;
+  line-height: 79px;
+  box-sizing: border-box;
+}
+.login-join__tab li:first-child {
+  border-right: 2px solid #009223;
+}
+.login-join__tab li > a {
+  display: block;
+}
+.on_login {
+  border-radius: 30px 0 0 0;
+  background-color: #009223;
+  color: #fff;
+}
+.on_join {
+  background-color: #009223;
+  color: #fff;
+}
+/* main ends */
+
+/* login starts */
+.login_form {
+  padding: 59px 50px;
+  /* box-sizing: border-box; */
+}
+.login_form .login-join__comment {
+  color: #999;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 41px;
+}
+.login_form label[for='u_id'],
+.login_form label[for='pwd'] {
+  display: none;
+}
+.login_form input[type='text'],
+.login_form input[type='password'] {
+  width: 450px;
+  height: 60px;
+  border: 2px solid #e5e5e5;
+  margin-top: 18px;
+  font-size: 16px;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.save__checkboxs {
+  /* height: 30px; */
+  width: 450px;
+  line-height: 16px;
+  margin: 30px 0;
+  text-align: center;
+}
+.save__checkboxs ul {
+  display: inline-block;
+}
+.save__checkboxs li {
+  float: left;
+  font-size: 16px;
+  color: #666;
+}
+.save__checkboxs li:first-child {
+  margin-right: 145px;
+}
+.login_form .btn {
+  width: 450px;
+  height: 70px;
+  background: #009223;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 900;
+}
+.find-link {
+  text-align: center;
+  margin-top: 40px;
+}
+.find-link ul {
+  display: inline-block;
+}
+.find-link li {
+  float: left;
+}
+.find-link li:nth-of-type(1) {
+  margin-right: 66px;
+}
+.find-link li:nth-of-type(2)::before {
+  content: '|';
+  color: #999;
+  font-weight: 900;
+  margin-right: 66px;
+}
+.find-link li a {
+  color: #999;
+  font-size: 16px;
+}
+/* login ends */
+
+/* join starts */
+.join_form {
+  padding: 55px 50px;
+}
+.join_form .login-join__comment {
+  color: #999;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 38px;
+}
+.join-id__wrapper label,
+.join-pwd__wrapper label,
+.join-repwd__wrapper label {
+  display: none;
+}
+.join-id__wrapper {
+  margin-bottom: 18px;
+  text-align: left;
+}
+.join-id__wrapper .err_id {
+  color: #05b6e5;
+  font-size: 13px;
+  font-style: italic;
+}
+.join-id__wrapper input {
+  float: left;
+  width: 360px;
+  height: 60px;
+  border: 2px solid #e5e5e5;
+  font-size: 16px;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.join-id__wrapper button {
+  width: 90px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 2px solid #e5e5e5;
+  background-color: #ffce32;
+  font-size: 16px;
+  color: #292929;
+}
+.join-pwd__wrapper {
+  margin-bottom: 18px;
+  text-align: left;
+}
+.join-pwd__wrapper .err_pwd {
+  color: #05b6e5;
+  font-size: 13px;
+  font-style: italic;
+}
+.join-pwd__wrapper input {
+  width: 450px;
+  height: 60px;
+  border: 2px solid #e5e5e5;
+  font-size: 16px;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.join-repwd__wrapper {
+  margin-bottom: 18px;
+  text-align: left;
+}
+.join-repwd__wrapper input {
+  width: 450px;
+  height: 60px;
+  border: 2px solid #e5e5e5;
+  font-size: 16px;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+.join-agree_wrapper {
+  margin-bottom: 18px;
+  font-size: 16px;
+  color: #666;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.join-submit__wrapper button {
+  width: 450px;
+  height: 60px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #009223;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 900;
+}
+/* join ends */
