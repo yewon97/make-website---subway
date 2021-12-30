@@ -18,7 +18,7 @@
       });
     });
   </script>
-  <title>샌드위치</title>
+  <title>Subway - Morning</title>
 </head>
 
 <body>
@@ -29,15 +29,15 @@
   <!-- 본문 중간 부분 작성 -->
   <main class="content" id="content">
 
-    <section class="top_banner_img">
-      <div class="top_img_size">
+    <section class="top_banner_img" style="background-color: #F2B702;">
+      <div class="top_img_size" style="background: url(images/introduceMenu/img_visual_morning01.jpeg) 100% 0 no-repeat, url(images/introduceMenu/img_visual_morning02.jpeg) 10% 0 no-repeat;">
         <div class="top_lnb">
           <ul>
-            <li class="top_lnb_01"><a href="#">샌드위치</a></li>
-            <li class="top_lnb_02"><a href="#">랩 ・ 기타</a></li>
-            <li class="top_lnb_03"><a href="#">찹샐러드</a></li>
+            <li class="top_lnb_01"><a href="sub_sandwich.php">샌드위치</a></li>
+            <li class="top_lnb_02"><a href="sub_wrap.php">랩 ・ 기타</a></li>
+            <li class="top_lnb_03"><a href="sub_chopped.php">찹샐러드</a></li>
             <li class="top_lnb_04"><a href="#">아침메뉴</a></li>
-            <li class="top_lnb_05"><a href="#">스마일 썹</a></li>
+            <li class="top_lnb_05"><a href="sub_smile.php">스마일 썹</a></li>
           </ul>
         </div>
         <h2>Morning Menu</h2>

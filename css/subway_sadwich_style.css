@@ -15,7 +15,6 @@
 .content .top_banner_img {
   height: 380px;
   margin: auto;
-  background-color: #E95B1D;
 }
 
 .content .top_banner_img .top_img_size {
@@ -23,7 +22,6 @@
   min-width: 1170px;
   margin: auto;
   height: 380px;
-  background: url(/images/img_visual_sandwich.jpeg) 50% 0 no-repeat;
 }
 
 .top_lnb_underline {

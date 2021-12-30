@@ -18,7 +18,7 @@
       });
     });
   </script>
-  <title>샌드위치</title>
+  <title>Subway - Wrap</title>
 </head>
 
 <body>
@@ -29,34 +29,35 @@
   <!-- 본문 중간 부분 작성 -->
   <main class="content" id="content">
 
-    <section class="top_banner_img">
-      <div class="top_img_size">
-        <div class="top_lnb">
+    <section class="top_banner_img" style='background-color:#85c441;'>
+      <div class="top_img_size" style="background: url(images/introduceMenu/img_visual_wrap01.jpeg) 100% 72px no-repeat, url(images/introduceMenu/img_visual_wrap02.jpeg) -10% 0 no-repeat;">
+      <div class="top_lnb">
           <ul>
-            <li class="top_lnb_01"><a href="#">샌드위치</a></li>
+            <li class="top_lnb_01"><a href="sub_sandwich.php">샌드위치</a></li>
             <li class="top_lnb_02"><a href="#">랩 ・ 기타</a></li>
-            <li class="top_lnb_03"><a href="#">찹샐러드</a></li>
-            <li class="top_lnb_04"><a href="#">아침메뉴</a></li>
-            <li class="top_lnb_05"><a href="#">스마일 썹</a></li>
+            <li class="top_lnb_03"><a href="sub_chopped.php">찹샐러드</a></li>
+            <li class="top_lnb_04"><a href="sub_morning.php">아침메뉴</a></li>
+            <li class="top_lnb_05"><a href="sub_smile.php">스마일 썹</a></li>
           </ul>
         </div>
-        <!-- <div class="top_lnb_underline">
-        </div> -->
-        <h2>Smile Sub</h2>
-        <p>웃음이 번지는 착한 가격, 착한 맛!<br>스마일 썹과 함께 하루 종일 스마일 하세요~</p>
+        <h2>Wrap</h2>
+        <p>Subway를 더 맛있고 간편하게 즐기는 방법<br>최상의 레시피로 만들어진 써브웨이 랩 시리즈, 이젠 고민하지 마세요!<br>* 그릴드 랩과 파니니는 일부 매장에서만 제공 가능합니다. 매장 리스트는 공지사항을 확인해주세요.</p>
       </div>
       <div class="bottom_lnb">
         <ul>
-          <li class="bottom_lnb_01"><a href="#">스마일 썹</a></li>
+          <li class="bottom_lnb_01"><a href="#">시그니처 랩</a></li>
+          <li class="bottom_lnb_02"><a href="#">미니 랩</a></li>
+          <li class="bottom_lnb_03"><a href="#">그릴드 랩</a></li>
+          <li class="bottom_lnb_04"><a href="#">파니니</a></li>
         </ul>
       </div>
     </section>
 
-    <div class="top_lnb_underline"></div>
+    <div class="top_lnb_underline"></div> 
 
     <section class="main_menu_intro">
       <div class="classic_sand">
-        <h3 class="menu_intro_title">스마일 썹</h3>
+        <h3 class="menu_intro_title">시그니처 랩</h3>
         <ul>
           <li class="menu_intro_boxes classic_sand_01"><a href="#">
               <img src="images/menu/eggmayo.jpeg" alt="">
@@ -94,77 +95,119 @@
               <h5>Tuna</h5>
               <p>480 kcal</p>
             </a></li>
-          <li class="menu_intro_boxes classic_sand_01"><a href="#">
+        </ul>
+      </div>
+
+      <div class="fresh_sand">
+        <h3 class="menu_intro_title">미니 랩</h3>
+        <ul>
+          <li class="menu_intro_boxes"><a href="#">
               <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>에그마요</h4>
-              <h5>Egg Mayo</h5>
-              <p>480 kcal</p>
+              <h4>로스트 치킨</h4>
+              <h5>Roasted Chicken</h5>
+              <p>320 kcal</p>
             </a></li>
-          <li class="menu_intro_boxes classic_sand_02"><a href="#">
-              <img src="images/menu/italianbmt.jpeg" alt="">
-              <h4>이탈리안 비엠티</h4>
-              <h5>Italian B.M.T.™</h5>
-              <p>410 kcal</p>
-            </a></li>
-          <li class="menu_intro_boxes classic_sand_03"><a href="#">
+          <li class="menu_intro_boxes"><a href="#">
               <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>비엘티</h4>
-              <h5>B.L.T.</h5>
+              <h4>로티세리 바비큐 치킨</h4>
+              <h5>Rotisserie Barbecue Chicken</h5>
+              <p>350 kcal</p>
+            </a></li>
+          <li class="menu_intro_boxes"><a href="#">
+              <img src="images/menu/eggmayo.jpeg" alt="">
+              <h4>써브웨이 클럽</h4>
+              <h5>Subway Club™</h5>
+              <p>293 kcal</p>
+            </a></li>
+          <li class="menu_intro_boxes"><a href="#">
+              <img src="images/menu/eggmayo.jpeg" alt="">
+              <h4>터키</h4>
+              <h5>Turkey</h5>
+              <p>280 kcal</p>
+            </a></li>
+          <li class="menu_intro_boxes"><a href="#">
+              <img src="images/menu/eggmayo.jpeg" alt="">
+              <h4>베지</h4>
+              <h5>Veggie Delite</h5>
+              <p>230 kcal</p>
+            </a></li>
+        </ul>
+      </div>
+
+      <div class="premium_sand">
+        <h3 class="menu_intro_title">그릴드 랩</h3>
+        <ul>
+          <li class="menu_intro_boxes"><a href="#">
+              <img src="images/menu/eggmayo.jpeg" alt="">
+              <h4>쉬림프</h4>
+              <h5>Shrimp</h5>
+              <p>229 kcal</p>
+            </a></li>
+          <li class="menu_intro_boxes"><a href="#">
+              <img src="images/menu/eggmayo.jpeg" alt="">
+              <h4>K-바비큐</h4>
+              <h5>K-BBQ</h5>
+              <p>372 kcal</p>
+            </a></li>
+          <li class="menu_intro_boxes"><a href="#">
+              <img src="images/menu/eggmayo.jpeg" alt="">
+              <h4>풀드 포크 바비큐</h4>
+              <h5>Pulled Pork Barbecue</h5>
+              <p>327 kcal</p>
+            </a></li>
+          <li class="menu_intro_boxes"><a href="#">
+              <img src="images/menu/eggmayo.jpeg" alt="">
+              <h4>스테이크 & 치즈</h4>
+              <h5>Steak & Cheese</h5>
               <p>380 kcal</p>
             </a></li>
-          <li class="menu_intro_boxes classic_sand_04"><a href="#">
+          <li class="menu_intro_boxes"><a href="#">
               <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>미트볼</h4>
-              <h5>Meatball</h5>
+              <h4>터키 베이컨 아보카도</h4>
+              <h5>Turkey Bacon Avocado</h5>
+              <p>420 kcal</p>
+            </a></li>
+          <li class="menu_intro_boxes"><a href="#">
+              <img src="images/menu/eggmayo.jpeg" alt="">
+              <h4>스파이시 이탈리안</h4>
+              <h5>Spicy Italian</h5>
               <p>480 kcal</p>
             </a></li>
-          <li class="menu_intro_boxes classic_sand_05"><a href="#">
+          <li class="menu_intro_boxes"><a href="#">
               <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>햄</h4>
-              <h5>Ham</h5>
-              <p>290 kcal</p>
+              <h4>치킨 데이야끼</h4>
+              <h5>Chicken Teriyaki</h5>
+              <p>370 kcal</p>
             </a></li>
-          <li class="menu_intro_boxes classic_sand_06"><a href="#">
+        </ul>
+      </div>
+
+      <div class="new_sand">
+        <h3 class="menu_intro_title">파니니</h3>
+        <ul>
+          <li class="menu_intro_boxes"><a href="#">
               <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>참치</h4>
-              <h5>Tuna</h5>
-              <p>480 kcal</p>
+              <h4>썹도그</h4>
+              <h5>SUB DOG</h5>
+              <p>544 kcal</p>
             </a></li>
-          <li class="menu_intro_boxes classic_sand_01"><a href="#">
+          <li class="menu_intro_boxes"><a href="#">
               <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>에그마요</h4>
-              <h5>Egg Mayo</h5>
-              <p>480 kcal</p>
+              <h4>더블치즈 썹도그</h4>
+              <h5>Double Cheese SUB DOG</h5>
+              <p>624 kcal</p>
             </a></li>
-          <li class="menu_intro_boxes classic_sand_02"><a href="#">
-              <img src="images/menu/italianbmt.jpeg" alt="">
-              <h4>이탈리안 비엠티</h4>
-              <h5>Italian B.M.T.™</h5>
-              <p>410 kcal</p>
-            </a></li>
-          <li class="menu_intro_boxes classic_sand_03"><a href="#">
+          <li class="menu_intro_boxes"><a href="#">
               <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>비엘티</h4>
-              <h5>B.L.T.</h5>
-              <p>380 kcal</p>
+              <h4>아보카도 썹도그</h4>
+              <h5>Avocado SUB DOG</h5>
+              <p>610 kcal</p>
             </a></li>
-          <li class="menu_intro_boxes classic_sand_04"><a href="#">
+          <li class="menu_intro_boxes"><a href="#">
               <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>미트볼</h4>
-              <h5>Meatball</h5>
-              <p>480 kcal</p>
-            </a></li>
-          <li class="menu_intro_boxes classic_sand_05"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>햄</h4>
-              <h5>Ham</h5>
-              <p>290 kcal</p>
-            </a></li>
-          <li class="menu_intro_boxes classic_sand_06"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>참치</h4>
-              <h5>Tuna</h5>
-              <p>480 kcal</p>
+              <h4>페퍼 치킨 슈니첼</h4>
+              <h5>Pepper Chicken Schnitzel</h5>
+              <p>472 kcal</p>
             </a></li>
         </ul>
       </div>
