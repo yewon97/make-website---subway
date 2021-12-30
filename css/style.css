@@ -1,14 +1,6 @@
 @import 'reset.css';
 @import 'header-footer.css';
 
-.hide {
-  overflow: hidden;
-  position: absolute;
-  width: 0;
-  height: 0;
-  line-height: 0;
-  text-indent: -9999px;
-}
 .img_size {
   width: 262px;
   height: 184px;
@@ -100,6 +92,12 @@
 }
 .subway-quick-menu-cont {
   width: 700px;
+}
+.subway-quick-menu-cont li {
+  display: none;
+}
+.subway-quick-menu-cont li.active {
+  display: block;
 }
 .subway-quick-menu-cont .fresh-menu {
   display: none;

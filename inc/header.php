@@ -7,19 +7,19 @@
           <li class="first-depth1">
             <a href="#">메뉴소개</a>
             <ul class="second-depth second-depth1">
-              <li><a href="#">샌드위치</a></li>
-              <li><a href="#">랩 ・ 기타</a></li>
-              <li><a href="#">찹샐러드</a></li>
-              <li><a href="#">아침메뉴</a></li>
-              <li><a href="#">스마일 썹</a></li>
+              <li><a href="sub_sandwich.php">샌드위치</a></li>
+              <li><a href="sub_wrap.php">랩 ・ 기타</a></li>
+              <li><a href="sub_chopped.php">찹샐러드</a></li>
+              <li><a href="sub_morning.php">아침메뉴</a></li>
+              <li><a href="sub_smile.php">스마일 썹</a></li>
             </ul>
           </li>
           <li class="first-depth2">
             <a href="#">새소식</a>
             <ul class="second-depth second-depth2">
-              <li><a href="#">이벤트 ・ 프로모션</a></li>
+              <li><a href="event.php">이벤트 ・ 프로모션</a></li>
               <li><a href="#">뉴스 ・ 공지사항</a></li>
-              <li><a href="#">광고영상</a></li>
+              <li><a href="advertise.php">광고영상</a></li>
             </ul>
           </li>
           <li class="first-depth3">
@@ -44,8 +44,8 @@
       <div class="util-menu">
         <h2 class="hide">사용자 메뉴</h2>
         <ul>
-          <li class="util-cont1"><a href="login-join.php">로그인</a></li>
-          <li class="util-cont2"><a href="login-join.php">회원가입</a></li>
+          <li class="util-cont1"><a href="login.php">로그인</a></li>
+          <li class="util-cont2"><a href="join.php">회원가입</a></li>
           <li class="util-cont3"><a href="#">글로벌 사이트로 이동</a></li>
         </ul>
       </div>

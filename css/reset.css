@@ -23,3 +23,11 @@ fieldset {
   margin: 0;
   padding: 0;
 }
+.hide {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}

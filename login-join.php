@@ -45,6 +45,7 @@
         </ul>
       </div>
 
+      <?php if($login = $_GET["login"]) { ?>
       <form class="login_form" name="login_form" action="login_ok.php" method="post" onsubmit="return login_check()">
         <fieldset>
           
@@ -94,12 +95,54 @@
           </div>
         </fieldset>
       </form>
+      <?php } else { ?>
+      <form class="join_form" name="join_form" action="insert.php" method="post" onsubmit="return form_check()">
+        <fieldset>
+          <legend class="hide">회원가입</legend>
 
+          <p class="login-join__comment">
+            이 사이트는 포트폴리오용으로 제작된 사이트임을<br>
+            다시 한번 알립니다.
+          </p>
+
+          <p class="join-id__wrapper">
+            <label for="u_id" class="txt">아이디</label>
+            <input type="text" name="u_id" id="u_id" class="u_id" readonly placeholder="아이디 입력(4~12글자)">
+            <button type="button" class="btn" onclick="id_search()">중복체크</button>
+            <br>
+            <span class="err_id">* 아이디는 4~12글자만 입력할 수 있습니다.</span>
+          </p>
+
+          <p class="join-pwd__wrapper">
+            <label for="pwd" class="txt">비밀번호</label>
+            <input type="password" name="pwd" id="pwd" class="pwd" placeholder="비밀번호 입력(8자 이상)">
+            <br>
+            <span class="err_pwd">* 비밀번호는 4~8글자만 입력할 수 있습니다.</span>
+          </p>
+
+          <p class="join-repwd__wrapper">
+            <label for="repwd" class="txt">비밀번호 확인</label>
+            <input type="password" name="repwd" id="repwd" class="repwd" placeholder="비밀번호 확인">
+            <br>
+            <span class="err_repwd"></span>
+          </p>
+
+          <p class="join-agree_wrapper">
+            <input type="checkbox" name="agree" id="agree" value="y">
+            <label for="agree">약관 동의</label>
+          </p>
+
+          <p class="join-submit__wrapper">
+            <button type="submit" class="btn">회원가입 하기</button>
+          </p>
+        </fieldset>
+      </form>
+      <?php }; ?>
     </section>
     <!-- login section ends -->
 
     <!-- join section starts -->
-    <section class="join box">
+    <!-- <section class="join box">
 
       <div class="login-join__tab">
         <ul>
@@ -154,7 +197,7 @@
         </fieldset>
       </form>
 
-    </section>
+    </section> -->
     <!-- join section ends -->
   </main>
 

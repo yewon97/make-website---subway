@@ -1,0 +1,134 @@
+@import "reset.css";
+@import 'header-footer.css';
+
+.lnb__container {
+  height: 59px;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+}
+
+.lnb__container ul {
+  display: flex;
+  width: 345px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height: 60px;
+}
+.lnb__container li a {
+  color: #999;
+  font-size: 16px;
+  display: block;
+  line-height: 60px;
+}
+.lnb__container li a:hover{
+  color: #009223;
+  font-weight: 700;
+  border-bottom: 3px solid #009223;
+}
+.lnb__container li:nth-of-type(1)::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  margin-left: 16px;
+  background-color: #ddd;
+  border-radius: 50px;
+  vertical-align: center;
+  position: absolute;
+  top: 28px;
+  left: 119px;
+}
+.lnb__container li:nth-of-type(2)::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  margin-left: 16px;
+  background-color: #ddd;
+  border-radius: 50px;
+  vertical-align: center;
+  position: absolute;
+  top: 28px;
+  left: 254px;
+}
+
+.advertise__title {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin: 70px 0;
+}
+
+.top-advertise__container {
+  min-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly
+}
+
+.bottom-advertise-container {
+  background-color: #f6f6f6;
+  min-width: 1200px;
+  height: 1095px;
+  margin-top: 96px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.advertise__list__title {
+  color: #fff;
+  font-size: 20px;
+  width: 220px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #58006c;
+  border-radius: 30px;
+  margin: 50px 0 70px;
+}
+.bottom-advertise-container ul {
+  display: flex;
+  width: 1200px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bottom-advertise-container li {
+  margin-bottom: 100px;
+  background-color: #fff;
+  height: 350px;
+  width: 390px;
+  position: relative;
+  box-shadow: rgba(59, 59, 59, 0.2) 0px 2px 8px 0px;
+}
+.bottom-advertise-container li a {
+  display: block;
+  height: 350px;
+}
+.advertise__box--info h4{
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 10px;
+  display: block;
+  color: #292929;
+  line-height: 20px;
+  text-align: center;
+}
+.bottom-advertise-container li::after {
+  width: 390px;
+  background-color: #eee;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+  color: #292929;
+  content: "영상 보기";
+  cursor: pointer;
+}
+.advertise__box:hover::after{
+  background-color: #009223;
+  color: #fff;
+  font-weight: 800;
+}

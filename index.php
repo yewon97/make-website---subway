@@ -13,12 +13,21 @@
       <?php include "js/menubar.js"; ?>
 
       // quick menu
-      $(".subway-quick-menu-top li").click(function () {
+      /* $(".subway-quick-menu-top li").click(function () {
         var idx = $(this).index();
         $(".subway-quick-menu-cont li").hide();
 
         $(".subway-quick-menu-cont li").eq(idx).show();
+      }); */
+      $(".subway-quick-menu-top li").click(function (e) {
+        // 스크롤 방지 코드
+        e.preventDefault();
+
+        var idx = $(this).index();
+        $(".subway-quick-menu-cont li").removeClass('active');
+        $(".subway-quick-menu-cont li").eq(idx).addClass('active');
       });
+
     });
   </script>
   <title>SUBWAY</title>
@@ -48,14 +57,14 @@
       <article class="subway-quick-menu">
         <h2 class="menu-title">Subway's Menu</h2>
         <ul class="subway-quick-menu-top">
-          <li><a href="#">클래식</a></li>
-          <li><a href="#">프레쉬&라이트</a></li>
-          <li><a href="#">프리미엄</a></li>
-          <li><a href="#">아침메뉴</a></li>
+          <li><a href="#sandwich_ci">클래식</a></li>
+          <li><a href="#sandwich_fr">프레쉬&라이트</a></li>
+          <li><a href="#sandwich_pr">프리미엄</a></li>
+          <li><a href="#sandwich_mo">아침메뉴</a></li>
         </ul>
 
         <ul class="subway-quick-menu-cont">
-          <li class="classic-menu">
+          <li class="classic-menu active" id="sandwich_ci">
             <dl class="classic-cont1">
               <img class="img_size" src="images/sandwich_egg.jpg" alt="에그마요" />
               <dt>에그마요</dt>
@@ -87,7 +96,7 @@
               <dt>로티세리 바비큐 치킨</dt>
               <dd>촉촉한 바비큐 치킨의 풍미가득. 손으로 찢어 더욱 부드러운 치킨의 혁명</dd>
             </dl>
-            <dl class="fresh-cont">
+            <dl class="fresh-cont" id="sandwich_fr">
               <img class="img_size" src="images/sandwich_roasted.png" alt="로스트 치킨" />
               <dt>로스트 치킨</dt>
               <dd>오븐에 구워 담백한 저칼로리 닭가슴살의 건강한 풍미</dd>
@@ -103,7 +112,7 @@
               <dd>280kcal로 슬림하게 즐기는 오리지날 터키 샌드위치</dd>
             </dl>
           </li>
-          <li class="premium-menu">
+          <li class="premium-menu" id="sandwich_pr">
             <dl class="premium-cont">
               <img class="img_size" src="images/sandwich_shrimp.jpg" alt="쉬림프" />
               <dt>쉬림프</dt>
@@ -125,7 +134,7 @@
               <dd>담백한 터키와 바삭한 베이컨 환상조합에 부드러운 아보카도는 신의 한수</dd>
             </dl>
           </li>
-          <li class="morning-menu">
+          <li class="morning-menu" id="sandwich_mo">
             <dl class="morning-cont">
               <img class="img_size" src="images/morning_hamEgg.jpg" alt="햄, 에그 & 치즈" />
               <dt>햄, 에그 & 치즈</dt>
