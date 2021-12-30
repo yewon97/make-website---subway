@@ -57,7 +57,7 @@
   background-color: #eee;
   border-radius: 50%;
   margin-left: 15px;
-  opacity: .5;
+  opacity: 0.5;
   vertical-align: middle;
 }
 
@@ -84,7 +84,7 @@
 .top_lnb .top_lnb_05 {
   float: left;
 }
-.top_lnb .top_lnb_05::after{
+.top_lnb .top_lnb_05::after {
   content: none;
 }
 .top_banner_img h2 {
@@ -103,12 +103,12 @@
 }
 
 .bottom_lnb {
-  width: 1170px; 
+  width: 1170px;
   height: 60px;
   background: #fff;
   text-align: center;
   margin: -30px auto 60px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .bottom_lnb ul {
@@ -148,6 +148,7 @@
   width: 1170px;
   margin: auto;
   overflow: hidden;
+  position: relative;
 }
 
 .main_menu_intro .menu_intro_title {
@@ -165,7 +166,7 @@
   display: block;
   width: 80%;
   margin: auto;
-} 
+}
 
 .menu_intro_boxes h4 {
   text-align: center;
@@ -187,7 +188,6 @@
   text-align: center;
   margin-top: 10px;
 }
-
 .main_menu_intro ul {
   width: 1170px;
   margin: auto;
@@ -206,3 +206,20 @@
   margin-right: 0;
 }
 
+.remote__container {
+  position: fixed;
+  bottom: 17px;
+  left: calc((100% - 1200px) / 2 + 1200px);
+}
+.remote__container.on {
+  position: absolute;
+}
+.remote--top {
+  width: 60px;
+  height: 60px;
+  background-color: #ffce32;
+}
+.remote__container a {
+  display: block;
+  text-indent: -9999px;
+}
