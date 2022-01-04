@@ -9,31 +9,24 @@ header {
   position: relative;
 }
 .header-wrapper > .logo {
-  width: 202px;
-  height: 40px;
   text-indent: -9999px;
-  background: url(../images/logo.png) no-repeat;
   position: absolute;
-  top: 110px;
-  left: calc(50% - 130px);
-  z-index: 9999;
-}
-.header-wrapper > .logo a {
-  display: block;
-  height: 100%;
 }
 
 /* Nav - gnb */
 .header-wrapper nav {
-  height: 247px;
+  height: 267px;
   position: relative;
-  top: 130px;
+  top: 110px;
 }
 .header-wrapper nav > ul {
   width: 942px;
-  height: 21px;
+  height: 50px;
   margin: auto;
   overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 .header-wrapper nav > ul a:hover {
   color: #009223;
@@ -44,7 +37,7 @@ header {
   font-weight: 700;
   line-height: 22px;
 }
-.header-wrapper .first-depth1 {
+/* .header-wrapper .first-depth1 {
   float: left;
   padding-right: 64px;
   text-align: center;
@@ -65,7 +58,7 @@ header {
   float: left;
   width: 146px;
   text-align: center;
-}
+} */
 
 .header-wrapper nav .second-depth {
   text-align: center;
@@ -87,22 +80,25 @@ header {
 .header-wrapper nav .second-depth1 {
   width: 66.25px;
   padding-right: 64px;
-  padding-bottom: 20px;
+  padding-bottom: 12px;
 }
 .header-wrapper nav .second-depth2 {
   width: 146px;
-  padding-right: 336px;
-  padding-bottom: 100px;
+  padding-right: 356px;
+  padding-bottom: 94px;
+  margin-left: -47px;
 }
 .header-wrapper nav .second-depth3 {
   width: 146px;
   padding-right: 32px;
-  padding-bottom: 100px;
+  padding-bottom: 94px;
+  margin-left: -40px;
 }
 .header-wrapper nav .second-depth4 {
   width: 146px;
   padding-right: 32px;
-  padding-bottom: 100px;
+  padding-bottom: 94px;
+  margin-left: -39px;
 }
 
 header .nav_bg {

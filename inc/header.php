@@ -22,6 +22,9 @@
               <li><a href="advertise.php">광고영상</a></li>
             </ul>
           </li>
+          <li>
+            <a href="index.php"><img src="images/logo.png" alt="Subway 홈으로 가기"></a>
+          </li>
           <li class="first-depth3">
             <a href="#">이용방법</a>
             <ul class="second-depth second-depth3">

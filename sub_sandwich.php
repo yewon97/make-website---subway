@@ -10,16 +10,11 @@
   <script type="text/javascript">
     $(document).ready(function () {
       // navbar 만들기
-      $("nav > ul > li").mouseenter(function () {
-        $("nav ul ul, .nav_bg").stop().slideDown("fast");
-      });
-      $("nav > ul > li").mouseleave(function () {
-        $("nav ul ul, .nav_bg").stop().slideUp("fast");
-      });
+      <?php include "js/menubar.js"; ?>
 
       // 맨위로 가기
       $(window).scroll(function() {
-          if ( $( this ).scrollTop() > 200 ) {
+          if ( $( this ).scrollTop() > 700 ) {
             $( '.remote--top' ).fadeIn();
           } else {
             $( '.remote--top' ).fadeOut();
