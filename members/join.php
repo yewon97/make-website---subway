@@ -93,7 +93,7 @@
         </ul>
       </div>
 
-      <form class="join_form" name="join_form" action="insert.php" method="post" onsubmit="return form_check()">
+      <form class="join_form" name="join_form" action="join_ok.php" method="post" onsubmit="return form_check()">
         <fieldset>
           <legend class="hide">회원가입</legend>
 
@@ -105,7 +105,7 @@
           <p class="join-id__wrapper">
             <label for="u_id" class="txt">아이디</label>
             <input type="text" name="u_id" id="u_id" class="u_id" readonly placeholder="아이디 입력(4~12글자)">
-            <button type="button" class="btn" onclick="id_search()">중복체크</button>
+            <button type="button" class="btn" onclick="id_search()">중복확인</button>
             <br>
             <span class="err_id">* 아이디는 4~12글자만 입력할 수 있습니다.</span>
           </p>
@@ -144,6 +144,67 @@
   <!-- footer ends - include  -->
 
   <!-- javascript starts -->
+  <script defer type="text/javascript">
+    function form_check(){
+      // 객체 생성
+      var uid = document.getElementById("u_id");
+      var pwd = document.getElementById("pwd");
+      var repwd = document.getElementById("repwd");
+      var agree = document.getElementById("agree");
+
+      if(uid.value == ""){
+        var err_txt = document.querySelector(".err_id");
+        err_txt.style.color = 'red';
+        err_txt.textContent = "* 아이디를 입력하세요.";
+        uid.focus();
+        return false;
+      };
+
+      var uid_len = uid.value.length;
+      if( uid_len < 4 || uid_len > 12){
+        var err_txt = document.querySelector(".err_id");
+        err_txt.style.color = 'red';
+        err_txt.textContent = "* 아이디는 4~12글자만 입력할 수 있습니다.";
+        uid.focus();
+        return false;
+      };
+
+      if(pwd.value == ""){
+        var err_txt = document.querySelector(".err_pwd");
+        err_txt.style.color = 'red';
+        err_txt.textContent = "비밀번호를 입력하세요.";
+        pwd.focus();
+        return false;
+      };
+
+      var pwd_len = pwd.value.length;
+      if( pwd_len < 4 || pwd_len > 8){
+        var err_txt = document.querySelector(".err_pwd");
+        err_txt.style.color = 'red';
+        err_txt.textContent = "비밀번호는 4~8글자만 입력할 수 있습니다.";
+        pwd.focus();
+        return false;
+      };
+
+      if(pwd.value != repwd.value){
+        var err_txt = document.querySelector(".err_repwd");
+        err_txt.style.color = 'red';
+        err_txt.textContent = "비밀번호를 확인해 주세요.";
+        repwd.focus();
+        return false;
+      };
+
+      if(!agree.checked){
+        alert("약관 동의가 필요합니다.");
+        agree.focus();
+        return false;
+      };
+    };
+
+    function id_search(){
+      window.open("search_id.php", "", "width=600, height=250, left=0, top=0");
+    };
+  </script>
   <!-- javascript ends -->
 </body>
 

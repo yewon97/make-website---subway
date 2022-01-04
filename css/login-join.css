@@ -65,20 +65,31 @@
 
 /* login starts */
 .login_form {
-  padding: 59px 50px;
+  padding: 40px 50px;
   /* box-sizing: border-box; */
 }
 .login_form .login-join__comment {
   color: #999;
   font-size: 16px;
   line-height: 26px;
-  margin-bottom: 41px;
+  margin-bottom: 30px;
+}
+.input_wrapper {
+  height: 99px;
 }
 .login_form label[for='u_id'],
 .login_form label[for='pwd'] {
   display: none;
 }
-.login_form input[type='text'],
+.login_form input[type='text']{
+  width: 450px;
+  height: 60px;
+  border: 2px solid #e5e5e5;
+  margin-top: 18px;
+  font-size: 16px;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
 .login_form input[type='password'] {
   width: 450px;
   height: 60px;
@@ -92,7 +103,7 @@
   /* height: 30px; */
   width: 450px;
   line-height: 16px;
-  margin: 30px 0;
+  margin: 17px 0 30px;
   text-align: center;
 }
 .save__checkboxs ul {
@@ -143,7 +154,7 @@
 
 /* join starts */
 .join_form {
-  padding: 55px 50px;
+  padding: 40px 50px;
 }
 .join_form .login-join__comment {
   color: #999;
@@ -233,3 +244,14 @@
   cursor: pointer;
 }
 /* join ends */
+
+/* err */
+.login_form .err_id, 
+.login_form .err_pwd {
+  color:#f00;
+  text-align: left;
+  display: block;
+  padding-left: 13px;
+  font-style: italic;
+  font-size: 13px;
+}

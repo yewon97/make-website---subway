@@ -102,14 +102,14 @@
             써브웨이 회원으로 로그인하시면 제공하는<br>
             다양한 서비스를 이용할 수 있습니다.
           </p>
-          <p>
+          <p class="input_wrapper">
             <label for="u_id" class="txt">아이디</label>
             <input type="text" name="u_id" id="u_id" class="u_id" autofocus placeholder="아이디 입력">
             <br>
             <span class="err_id"></span>
           </p>
 
-          <p>
+          <p class="input_wrapper">
             <label for="pwd" class="txt">비밀번호</label>
             <input type="password" name="pwd" id="pwd" class="pwd" placeholder="비밀번호 입력(영문, 숫자, 특수문자 조합)">
             <br>
@@ -152,6 +152,40 @@
   <!-- footer ends - include  -->
 
   <!-- javascript starts -->
+  <script type="text/javascript">
+    function login_check(){
+      let u_id = document.getElementById("u_id");
+      let pwd = document.getElementById("pwd");
+
+      if(u_id.value == ""){
+          var err_txt = document.querySelector(".err_id");
+          err_txt.textContent = "아이디를 입력하세요.";
+          u_id.focus();
+          return false;
+      };
+      var u_id_len = u_id.value.length;
+      if( u_id_len < 4 || u_id_len > 12){
+          var err_txt = document.querySelector(".err_id");
+          err_txt.textContent = "아이디는 4~12글자만 입력할 수 있습니다.";
+          u_id.focus();
+          return false;
+      };
+
+      if(pwd.value == ""){
+          var err_txt = document.querySelector(".err_pwd");
+          err_txt.textContent = "비밀번호를 입력하세요.";
+          pwd.focus();
+          return false;
+      };
+      var pwd_len = pwd.value.length;
+      if( pwd_len < 4 || pwd_len > 8){
+          var err_txt = document.querySelector(".err_pwd");
+          err_txt.textContent = "비밀번호는 4~8글자만 입력할 수 있습니다.";
+          pwd.focus();
+          return false;
+      };
+    };
+    </script>
   <!-- javascript ends -->
 </body>
 
