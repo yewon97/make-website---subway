@@ -37,28 +37,6 @@ header {
   font-weight: 700;
   line-height: 22px;
 }
-/* .header-wrapper .first-depth1 {
-  float: left;
-  padding-right: 64px;
-  text-align: center;
-}
-.header-wrapper .first-depth2 {
-  float: left;
-  width: 146px;
-  padding-right: 336px;
-  text-align: center;
-}
-.header-wrapper .first-depth3 {
-  float: left;
-  width: 146px;
-  padding-right: 32px;
-  text-align: center;
-}
-.header-wrapper .first-depth4 {
-  float: left;
-  width: 146px;
-  text-align: center;
-} */
 
 .header-wrapper nav .second-depth {
   text-align: center;

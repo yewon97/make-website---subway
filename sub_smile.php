@@ -10,12 +10,10 @@
   <script type="text/javascript">
     $(document).ready(function () {
       // navbar 만들기
-      $("nav > ul > li").mouseenter(function () {
-        $("nav ul ul, .nav_bg").stop().slideDown("fast");
-      });
-      $("nav > ul > li").mouseleave(function () {
-        $("nav ul ul, .nav_bg").stop().slideUp("fast");
-      });
+      <?php include "js/menubar.js"; ?>
+
+      // 맨위로 가기
+      <?php include "js/go_top.js"; ?>
     });
   </script>
   <title>Subway - Smile</title>
@@ -59,119 +57,84 @@
         <h3 class="menu_intro_title">스마일 썹</h3>
         <ul>
           <li class="menu_intro_boxes classic_sand_01"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>에그마요</h4>
-              <h5>Egg Mayo</h5>
-              <p>480 kcal</p>
+              <img src="images/smileSub/smilesub_pineChip.png" alt="파인애플 쿠키">
+              <h4>파인애플 쿠키</h4>
+              <h5>Pineapple Cookies</h5>
+              <p>200 kcal</p>
             </a></li>
           <li class="menu_intro_boxes classic_sand_02"><a href="#">
-              <img src="images/menu/italianbmt.jpeg" alt="">
-              <h4>이탈리안 비엠티</h4>
-              <h5>Italian B.M.T.™</h5>
-              <p>410 kcal</p>
+              <img src="images/smileSub/smilesub_doubleChocoChip.jpg" alt="더블 초코칩">
+              <h4>더블 초코칩</h4>
+              <h5>Double Chocolate Chip</h5>
+              <p>210 kcal</p>
             </a></li>
           <li class="menu_intro_boxes classic_sand_03"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>비엘티</h4>
+              <img src="images/smileSub/smilesub_chocoChip.jpg" alt="초코칩">
+              <h4>초코칩</h4>
               <h5>B.L.T.</h5>
-              <p>380 kcal</p>
+              <p>200 kcal</p>
             </a></li>
           <li class="menu_intro_boxes classic_sand_04"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>미트볼</h4>
-              <h5>Meatball</h5>
-              <p>480 kcal</p>
+              <img src="images/smileSub/smilesub_oatmealChip.jpg" alt="오트밀 레이즌">
+              <h4>오트밀 레이즌</h4>
+              <h5>Oatmeal Raisin</h5>
+              <p>200 kcal</p>
             </a></li>
           <li class="menu_intro_boxes classic_sand_05"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>햄</h4>
-              <h5>Ham</h5>
-              <p>290 kcal</p>
+              <img src="images/smileSub/smilesub_berryChip.jpg" alt="라즈베리 치즈케익">
+              <h4>라즈베리 치즈케익</h4>
+              <h5>Raspberry Cheese Cake</h5>
+              <p>200 kcal</p>
             </a></li>
           <li class="menu_intro_boxes classic_sand_06"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>참치</h4>
-              <h5>Tuna</h5>
-              <p>480 kcal</p>
+              <img src="images/smileSub/smilesub_whiteChocoChip.jpg" alt="화이트 초코 마카다미아">
+              <h4>화이트 초코 마카다미아</h4>
+              <h5>White Choco Macadamia</h5>
+              <p>220 kcal</p>
             </a></li>
           <li class="menu_intro_boxes classic_sand_01"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>에그마요</h4>
-              <h5>Egg Mayo</h5>
-              <p>480 kcal</p>
-            </a></li>
-          <li class="menu_intro_boxes classic_sand_02"><a href="#">
-              <img src="images/menu/italianbmt.jpeg" alt="">
-              <h4>이탈리안 비엠티</h4>
-              <h5>Italian B.M.T.™</h5>
-              <p>410 kcal</p>
-            </a></li>
-          <li class="menu_intro_boxes classic_sand_03"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>비엘티</h4>
-              <h5>B.L.T.</h5>
-              <p>380 kcal</p>
-            </a></li>
-          <li class="menu_intro_boxes classic_sand_04"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>미트볼</h4>
-              <h5>Meatball</h5>
-              <p>480 kcal</p>
-            </a></li>
-          <li class="menu_intro_boxes classic_sand_05"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>햄</h4>
-              <h5>Ham</h5>
-              <p>290 kcal</p>
+              <img src="images/smileSub/smilesub_ovenbakedPotatoes.jpg" alt="웨지 포테이토">
+              <h4>웨지 포테이토</h4>
+              <h5>Ovenbaked Wedge Potatoes</h5>
+              <p>143 kcal</p>
             </a></li>
           <li class="menu_intro_boxes classic_sand_06"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>참치</h4>
-              <h5>Tuna</h5>
-              <p>480 kcal</p>
-            </a></li>
-          <li class="menu_intro_boxes classic_sand_01"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>에그마요</h4>
-              <h5>Egg Mayo</h5>
-              <p>480 kcal</p>
-            </a></li>
+            <img src="images/smileSub/smilesub_cheesyPotatoes.jpg" alt="Cheesy 웨지 포테이토">
+            <h4>Cheesy 웨지 포테이토</h4>
+            <h5>Cheesy Ovenbaked Wedge Potatoes</h5>
+            <p>187 kcal</p>
+          </a></li>
           <li class="menu_intro_boxes classic_sand_02"><a href="#">
-              <img src="images/menu/italianbmt.jpeg" alt="">
-              <h4>이탈리안 비엠티</h4>
-              <h5>Italian B.M.T.™</h5>
-              <p>410 kcal</p>
+              <img src="images/smileSub/smilesub_baconPotatoes.jpg" alt="Bacon Cheesy 웨지 포테이토">
+              <h4>Bacon Cheesy 웨지 포테이토</h4>
+              <h5>Bacon Cheesy Ovenbaked Wedge Potatoes</h5>
+              <p>238 kcal</p>
             </a></li>
           <li class="menu_intro_boxes classic_sand_03"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>비엘티</h4>
-              <h5>B.L.T.</h5>
-              <p>380 kcal</p>
+              <img src="images/smileSub/smilesub_mushSoup.png" alt="머쉬룸 수프">
+              <h4>머쉬룸 수프</h4>
+              <h5>Mushroom Soup</h5>
+              <p>150 kcal</p>
             </a></li>
           <li class="menu_intro_boxes classic_sand_04"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>미트볼</h4>
-              <h5>Meatball</h5>
-              <p>480 kcal</p>
+              <img src="images/smileSub/smilesub_broccoliSoup.jpg" alt="브로콜리 체다 수프">
+              <h4>브로콜리 체다 수프</h4>
+              <h5>Broccoli Cheddar Soup</h5>
+              <p>170 kcal</p>
             </a></li>
           <li class="menu_intro_boxes classic_sand_05"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>햄</h4>
-              <h5>Ham</h5>
-              <p>290 kcal</p>
-            </a></li>
-          <li class="menu_intro_boxes classic_sand_06"><a href="#">
-              <img src="images/menu/eggmayo.jpeg" alt="">
-              <h4>참치</h4>
-              <h5>Tuna</h5>
-              <p>480 kcal</p>
+              <img src="images/smileSub/smilesub_potatoSoup.jpg" alt="베이크 포테이토 수프">
+              <h4>베이크 포테이토 수프</h4>
+              <h5>Baked Potatoe Soup</h5>
+              <p>210 kcal</p>
             </a></li>
         </ul>
       </div>
 
-      <a href="#" class="main_go_up">맨 위로 가기</a>
-      <a href="#" class="main_go_down">맨 아래로 가기</a>
     </section>
+    <div class="remote__container">
+      <a href="#" class="remote--top">맨 위로 가기</a>
+    </div>
 
   </main>
   <!-- // 본문 중간 부분 작성 -->
